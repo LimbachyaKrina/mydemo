@@ -1,0 +1,74 @@
+<html>
+    <head>
+        <title>
+            Simple Form
+        </title>
+        <meta mane = "keyword" content = "webpage, design, tutorial">
+        <meta name = "description" content = "You will get to know basic about HTML">
+        <meta http-equiv="refresh" content = "5">
+    </head>
+    <body>
+        <form action = "jumping.html" method = "post">
+            <table align="center" bgcolor = "pink">
+                <tr>
+                    <td>
+                        <label for = "name"> Username </label>
+                    </td>
+                    <td>
+                        <label> <input type = "name" placeholder="Enter here" name = "UserName"></label>
+                        <!-- <label> <textarea id = "name" placeholder="Enter here" name = "UserName" ></textarea></label> -->
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for = "num"> Phone Number </label>
+                    </td>
+                    <td>
+                        <label> <textarea id = "num" maxlength="10"> </textarea></label>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for = "date"> BirthDate </label>
+                    </td>
+                    <td>
+                        <label> <input type = "date" id="date"></label>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for = "area"> Address </label>
+                    </td>
+                    <td>
+                        <label> <textarea id = "area" rows = "7" cols = "70"></textarea></label>
+                    </td>
+                </tr>
+            </table>
+
+
+
+            <p>
+                <label> PassWord <input type = "password" placeholder="Your password is invisible"></label>
+            </p>
+            <p>
+                <label> Gender <input type="radio" name = "Gender" value ="male"/> Male</label>
+                <label> <input type="radio" name = "Gender" value ="female"/> Female</label>
+            </p>
+            <p>
+                <label> Hobby <input type = "checkbox" name = "cricket" value="cricket"> Cricket</label>
+                <label>  <input type = "checkbox" name = "football" value="football"> Football</label>
+                <label>  <input type = "checkbox" name = "hockey" value="hockey"> Hockey</label>
+            </p>
+            <p>
+                <label> Rating (1-10) <input type = "range" max="10" min = "0"></label>
+            </p>
+            <p>
+                <label> Email ID <input type = "email" placeholder="Enter your email id here"> </label>
+            </p>
+            <p>
+                <label> <input type = "submit"> </label>
+                <label> <input type = "reset"> </label>
+            </p>
+        </form>
+    </body>
+</html>

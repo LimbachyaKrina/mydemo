@@ -1,0 +1,96 @@
+<html>
+    <head>
+        <title>
+            Simple Form
+        </title>
+    </head>
+    <body>
+        <form action = "jumping.html" method = "post">
+            <fieldset>
+                <legend align = "right"> Login Form </legend>
+            
+            <p>
+                <label> Username <input type = "text" name = "UserName" placeholder="Enter here" /></label>
+            </p>
+            <p>
+                <label> PassWord <input type = "password" placeholder="Your password is invisible"></label>
+            </p>
+            <p>
+                <label> Gender <input type="radio" name = "Gender" value ="male"/> Male</label>
+                <label> <input type="radio" name = "Gender" value ="female"/> Female</label>
+            </p>
+            <p>
+                <label> Hobby <input type = "checkbox" name = "cricket" value="cricket"> Cricket</label>
+                <label>  <input type = "checkbox" name = "football" value="football"> Football</label>
+                <label>  <input type = "checkbox" name = "hockey" value="hockey"> Hockey</label>
+            </p>
+            <p>
+                <label> Rating (1-10) <input type = "range" max="10" min = "0"></label>
+            </p>
+            <p>
+                <label> BirthDate <input type = "date" placeholder="Enter your BirthDate"></label>
+            </p>
+            <p>
+                <label> Email ID <input type = "email" placeholder="Enter your email id here"> </label>
+            </p>
+            <p>
+                <label> <input type = "submit"> </label>
+                <label> <input type = "reset"> </label>
+            </p>
+            <p>
+                <label>  Click Here <input type = "button"> </label>
+            </p>
+            <table>
+                <tr>
+                    <td>
+                        <label for = "area"> Address </label>
+                    </td>
+                    <td>
+                        <label> <textarea id = "area" rows = "7" cols = "70"></textarea></label>
+                    </td>
+                </tr>
+            </table>
+            <p>
+                <label> Select your Country</label>
+                <select>
+                    <option value = " " selected disabled hidden> -- Select --</option>
+                    <option> India </option>
+                    <option> South Korea </option> 
+                    <option> UK </option>
+                    <option> USA </option>
+                </select>
+            </p>
+            <p>
+                <label> Select your State </label>
+                <select>
+                    <option value = " " selected disabled hidden> -- Select --</option>
+                <optgroup label="India">
+                    <option> Goa </option>
+                    <option> Rajasthan </option>
+                    <option> Maharashtra </option>
+                    <option> Gujarat </option>
+                </optgroup>
+                <optgroup label="South Korea">
+                    <option> Busan </option>
+                    <option> Seoul </option>
+                    <option> Jeju Island </option>
+                    <option> Ilsan </option>
+                </optgroup>
+                <optgroup label="UK">
+                    <option> England </option>
+                    <option> Wales </option>
+                    <option> North Ireland </option>
+                    <option> Scotland </option>
+                </optgroup>
+                <optgroup label="USA">
+                    <option> Texas </option>
+                    <option> Florida </option>
+                    <option> California </option>
+                    <option> New York  </option>
+                </optgroup>
+            </select>
+            </p>
+        </fieldset>
+        </form>
+    </body>
+</html>

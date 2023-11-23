@@ -1,0 +1,92 @@
+<!-- WAF to collect details of user such as name, address, radio button for subject of book he wants to buy
+,gender, birthdate, drop down to choose favourite author by providing catogaries like novel, story books,
+comics. Give a range to provide review for last book he read. Provide comments for last book he read. After 
+clicking submit button open new.html page  which has a text thanks for subscription. Give title to form with outline-->
+<html>
+    <head>
+        <title>
+            Book Store
+        </title>
+    </head>
+    <body >
+        <form action="new.html" method = "post">
+            <fieldset>
+                <legend align = "center"> Subscription Page </legend>    
+                <p>
+                    <label>Name <input type = "text" placeholder="Enter here"> </label>
+                </p>
+                </p>
+                <table>
+                    <tr>
+                        <td>
+                            <label for = "area"> Address </label>
+                        </td>
+                        <td>
+                            <label> <textarea id = "area" rows = "7" cols = "70"></textarea></label>
+                        </td>
+                    </tr>
+                </table>
+                <p>
+                    <label> Gender <input type = "radio" name = "Gender"> Female </label>
+                    <label>  <input type = "radio" name = "Gender"> Male </label>
+                </p>
+                <p>
+                    <label> BirthDate <input type = "date"> </label>
+                </p>
+                <p>
+                   <label> Subject <input type = "checkbox" name="Subject" > Novel </label>
+                   <label><input type = "checkbox" name="Subject"> Fiction </label>
+                   <label><input type = "checkbox" name="Subject"> Self-Help </label>
+                   <label><input type = "checkbox" name="Subject"> Non-Fiction </label>
+                </p>
+                <p>
+                    <label> Choose your Favourite Author </label>
+                    <select>
+                        <option value = " " selected disabled hidden> -- Select -- </option>
+                        <option> Novel </option>
+                        <optgroup label="Novel">
+                            <option> Chetan Bhagat</option>
+                            <option> J.K Rowling</option>
+                            <option> Hermann Hesse</option>
+                        </optgroup>
+                        <option> Fiction </option>
+                        <optgroup label="Novel">
+                            <option> Amish Tripathi</option>
+                            <option> Ashwin Sanghi</option>
+                            <option> Kevin Missal </option>
+                        </optgroup> 
+                        <option> Self-Help </option>
+                        <optgroup label="Novel">
+                            <option> Naval Ravikant</option>
+                            <option> Ankoor Warikoo</option>
+                            <option> Jay Shetty</option>
+                        </optgroup>
+                        <option> Non-Fiction </option>
+                        <optgroup label="Novel">
+                            <option> Anne Frank</option>
+                            <option> Collen Hoover</option>
+                            <option> Elena Armas</option>
+                        </optgroup>
+                    </select>
+                </p>
+                <p>
+                    <label> Review (1-10) <input type = "range" max="10" min = "0"></label>
+                </p>
+                <table>
+                    <tr>
+                        <td>
+                            <label for="com"> Comments </label>
+                        </td>
+                        <td>
+                            <label><textarea id="com" row ="7" cols="70" placeholder="Write comments about the last book you read"></textarea></label>
+                        </td>
+                    </tr>
+                </table>
+                <p>
+                    <label> <input type = "submit"> </label>
+                    <label> <input type = "reset"> </label>
+                </p>
+            </fieldset>
+        </form>
+    </body>
+</html>
