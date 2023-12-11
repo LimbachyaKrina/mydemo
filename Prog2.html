@@ -1,0 +1,26 @@
+<!--Write html and css script to define a form having user name, password, address, submit and
+reset buttons. User name background should have yellow color and green font color. Password background
+should be light green color and blue text color.Text area: bg - red and color - black.Submit button
+should have font size 40 px and ariel.Reset button should have font size 20 px and verdana font.Also
+show green border of form.After clicking submit button,it should jump to next.html file which has heading
+submitted successfully in green color and with center alignment. use external style for both the pages -->
+<html>
+    <head>
+        <title> Form Creating</title>
+        <link href="Prog2.css" rel="stylesheet">
+    </head>
+    <body>
+        <form action="next.html" method="post" >
+            <fieldset>
+                <legend>
+                   Form
+                </legend>
+                <p><label>Username <input type="text" placeholder="Enter username" class="name"></label></p>
+                <p><label>Password <input type="password" placeholder="Enter password" class="pass"></label></p>
+                <p><label for="area"> Address <textarea id="area" rows="5"cols="50" class="add"></textarea></label></p>
+                <p><input type="reset" class="re"></p>
+                <p><input type="submit" class="sub"></p>
+            </fieldset>
+        </form>
+    </body>
+</html>

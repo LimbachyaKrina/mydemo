@@ -1,0 +1,9 @@
+.foot{
+    width: 20%;
+    border: 1px solid blue;
+    float: left;
+}
+.foot2{
+    width: 40%;
+    float: left;
+}

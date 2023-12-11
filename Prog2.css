@@ -1,0 +1,23 @@
+.fieldset{
+    border: 50px solid green;
+}
+.name{
+    background-color: yellow;
+    color:green;
+}
+.pass{
+    background-color: lightgreen;
+    color: blue;
+}
+.add{
+    background-color: red;
+    color: black;
+}
+.sub{
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.re{
+    font-size:20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}

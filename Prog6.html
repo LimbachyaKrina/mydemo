@@ -1,0 +1,23 @@
+<!--Write html and css script to write sign up form having fields like user name, password, choices of sports like 
+cricket, hockey, football. Include gender fields like female or male.
+Fulfill below requirements. 1. While hovering username and password its background should turn 
+to yellow and pink color respectively. 2. While clicking sports and gender fields text should turn to red color.
+3. Both submit and reset text should turn blue while hovering. 4. Use appropiate selectors -->
+<html>
+    <head>
+        <title>Form</title>
+        <link href="Prog6.css" rel="stylesheet">
+    </head>
+    <body>
+        <form>
+            <fieldset>
+                <legend>Form</legend>
+                <pre><label>UserName<input type="text" placeholder="Enter your name" class="user"></label></pre>
+                <pre><label>Password<input type="password" placeholder="Enter your Password" class="pass"></label></pre>
+                    <label class="text"> gender<input type="radio" name="gender" value="cricket" >cricket</label>
+                <label class="text"><input type="radio" name="gender" value="football" > football</label>
+            <label class="text"><input type="radio" name="gender" value="hockey" > Hockey</label>
+            </fieldset>
+        </form>
+    </body>
+</html>

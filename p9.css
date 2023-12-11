@@ -1,0 +1,25 @@
+.row1{
+    color: rgb(0,50%,20%);
+    background-color: rgb(0,0,255);
+    font-style: italic;
+}
+.row2{
+    font-weight: bold;
+    font-variant: small-caps;
+    font-size: xx-small;
+}
+.row3{
+    text-indent: 2cm;
+    letter-spacing: 5px;
+    word-spacing: 10px;
+    text-decoration: line-through;
+    text-transform: capitalize;
+}
+.img{
+    background: pink url("D:/A_13/Pic.png") ;
+    /* background-size: 30% 30%; */
+    background-size:contain;
+}
+.und{
+    text-decoration: none;
+}

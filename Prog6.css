@@ -1,0 +1,9 @@
+.user:hover{
+    background-color: yellow ;
+}
+.pass:hover{
+    background-color: pink;
+}
+.text:active{
+    color:red;
+}
